@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4280439071</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\servo_excercise.pbi</file>
+      <file>$PROJ_DIR$\servo_excercise.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\servo_excercise.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\robot_test.pbd</file>
+      <file>$PROJ_DIR$\robot.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
+      <file>$PROJ_DIR$\binary.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom1280.inc</file>
+      <file>$PROJ_DIR$\Debug\Exe\robot_test.d90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm1280.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\iom1280.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\servo_excercise.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 12 7 13 15 14 6 4</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11 12 7 13 15 14 6 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\robot_test.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\robot_test.d90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10 9 2 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
