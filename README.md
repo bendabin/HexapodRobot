@@ -23,7 +23,7 @@ This part of the project consists of the 6 legged robot and the code for the ser
 
 ![ImageText](/Images/Robot.jpg?raw=true "Complete robot setup") 
 
-Click [here](/FirmwareForRobot/servo_excercise.c) to view the code for the servocontroller. The name of the file is called main.cpp and is written in C.
+Click [here](/FirmwareForRobot/servo_excercise.c) to view the code for the servocontroller. The name of the file is called servo_excercise.c and is written in C.
 
 
 
