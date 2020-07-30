@@ -4,16 +4,18 @@ This is a final year University Project, which consists of a Smartphone Android 
 
 The project consists of 2 parts: 
 
-- Part 1 The Android Application for sending commands to the robot.
+- Part 1 The Android Smartphone Application GUI for sending commands to the robot.
 - Part 2 The 6 legged robot with a servo controller PCB with an ATMEL1280 microcontroller.
 
 **For more details on the project report please click [here](/ThirdYearProjectReport.pdf).**
 
 ## Part 1 
 
+This part of the project is the Android Smartphone Application GUI.
+
 ![ImageText](/Images/AndroidAppGUI.png?raw=true "The GUI for the project")
 
-**To view the code for the Android GUI buttons please click [here](/GUI/Form1BU.cs).** The name of the file is called Form1BU.cs and is written C#. 
+**To view the code for the Android GUI buttons please click [here](/AndroidAppCode/MainActivity.java).** The name of the file is called MainActivity.java and is written Java. 
 
 ## Part 2
 
@@ -21,7 +23,7 @@ This part of the project consists of the 6 legged robot and the code for the ser
 
 ![ImageText](/Images/Robot.jpg?raw=true "Complete robot setup") 
 
-Click [here](/RobotCode/main.cpp) to view the code for the robot algorithm. The name of the file is called main.cpp and is written in C++.
+Click [here](/FirmwareForRobot/servo_excercise.c) to view the code for the servocontroller. The name of the file is called main.cpp and is written in C.
 
 
 
