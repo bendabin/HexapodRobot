@@ -2,6 +2,8 @@
 
 This is a final year University Project, which consists of a Smartphone Android Application and a servo controller for a 6 legged Hexapod Robot. The main objective of the project is control the robot from an Application written on a smartphone. 
 
+![ImageText](/Images/Robot_1?raw=true "The Hexapod robot for the project")
+
 The project consists of 2 parts: 
 
 - Part 1 The Android Smartphone Application GUI for sending commands to the robot.
